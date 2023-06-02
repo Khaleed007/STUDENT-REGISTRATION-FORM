@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--borders-->
+    <div id="bodyborder">
+        <div id="body2">
+            <!--heading-->
+<div class="heading">
+<div>
+    <img src="TIDE.jpeg">
+    </div>
+    <div>
+        <h1>Student Registration Form</h1>
+        <p>Fill out the form to apply for the training courses.You can consider your application accepted after you receive a
+            <br>confirmation email</p>
+        </div>
+</div>
+<!--form1-->
+        <form action="" name="studentinfo" id="student-info">
+            <label for="student-info" id="label">Student Information</label><br>
+            <span id="namestogether">
+            <input type="text" name="firstname" id="firstname" class="namefirst" placeholder="First Name">
+            <input type="text" name="middlename" id="firstname" class="namefirst" placeholder="Middle Name">
+            <input type="text" name="lastname" id="firstname" placeholder="Last Name">
+            </span>
+
+            <span id="remaining">
+            <input type="date" name="dob" id="dob" placeholder="Date Of Birth" class="dateofbirth">
+            <input type="text" name="studentid" id="studentid" placeholder="Student ID" class="dateofbirth">
+            </span>
+
+        </form>
+<!--address-->
+        <form action="" name="address" id="address">
+            <label for="address" id="label">Address</label><br>
+            <input type="text" name="streetaddress" id="streetaddress" placeholder="Street Address">
+
+            <span id="remaining">
+            <input type="text" name="city" id="dob" placeholder="City" class="dateofbirth">
+            <input type="text" name="state" id="studentid" placeholder="State/Province" class="dateofbirth">
+            </span>
+            <span id="remaining">
+            <input type="text" name="country" id="dob" placeholder="Country" class="dateofbirth">
+            <input type="text" name="ZIPcode" id="studentid" placeholder="ZIP Code" class="dateofbirth">
+            </span>
+
+        </form>
+
+<!--contact-->
+        <form action="" name="Contactinformation" id="address">
+            <label for="Contactinformation" id="label">Contact Information</label><br>
+            <span id="namestogether">
+            <input type="text" name="email" id="dob" placeholder="Email" class="dateofbirth">
+            <input type="text" name="blank" id="studentid" placeholder="" class="dateofbirth">
+            </span>
+        </form>
+        <!--courses-->
+            <div id="address">
+            <p id="label">Course
+        <span class="required-icon">
+                </span></p>
+
+        <!--Dropdown-->
+            <div>
+                <ul>
+                    <li><a href="#">Course</a></li>
+                    <li>
+                    <a href="#">Level</a>
+                    <ul class="dropdown">
+                        <li><a href="#">100Level</a></li>
+                        <li><a href="#">200Level</a></li>
+                        <li><a href="#">300Level</a></li>
+                        <li><a href="#">400Level</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Language</a></li>
+                <li><a href="#">Start Date</a></li>
+                </ul>
+                    
+            </div>
+        
+
+
+
+
+        <form action="#">
+            <textarea name="comment" id="comments" placeholder="Comments"></textarea>
+        </form>
+
+        <button type="submit" id="send">SEND REQUEST</button>
+            </div>
+
+
+
+    
+    </div>
+    </div>
+</body>
+</html>
